@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=devicee-width, initial-scale=1.0">
+    <title>Images and Links</title>
+</head>
+<body>
+    <h1>Homepage</h1>
+    <!--these 2 are absolute links-->
+    <!--Opens link in the same tab-->
+    <a href="https://www.theodinproject.com/about">About The Odin Project</a>
+    <p></p>
+    <!--Opens link in a new tab or window depending on browser-->
+    <!--"noopener means the opened link doesn't know where it was opened from"-->
+    <!--Stops opened link from knowing which webpage or resource has a link to it. Inludes noopener so can be used on it's own-->
+    <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">About The Odin Project</a>
+    <p></p>
+    <!--This is a relative link-->
+    <a href="pages/about.html">about</a>    
+    <p></p>
+    <!--can also use relative links for images in a folder like a website-->
+    <!--alt is used to write what the image is if it can't load and also for screen readers-->
+    <!--Can also define size of an image - not strictly necessary but it is good practice-->
+    <img src="https://www.theodinproject.com/mstile-310x310.png" alt="The Odin Project Logo" height="310" width="310">
+
+</body>
+</html>
